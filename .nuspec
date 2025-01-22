@@ -1,0 +1,13 @@
+<package>
+  <metadata>
+    <!-- ... other metadata ... -->
+    <description>Library to send request to OpenRouter</description>
+    <license type="expression">MIT</license>
+    <readme>README.md</readme>
+  </metadata>
+  <files>
+    <!-- ... other files ... -->
+    <file src="README.md" target="" />
+    <file src="LICENSE.txt" target="" />
+  </files>
+</package>
