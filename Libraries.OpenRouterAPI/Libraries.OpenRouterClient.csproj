@@ -9,7 +9,7 @@
       <Authors>Kevin Woods</Authors> 
       <Description>Library to make calls to open router</Description>
       <PackageTags>openrouter; ai;</PackageTags>
-      <RepositoryUrl>https://github.com/your-repo</RepositoryUrl> 
+      <RepositoryUrl>hhttps://github.com/woody05/Library.OpenRouterClient</RepositoryUrl> 
       
   </PropertyGroup>
   <ItemGroup>
