@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
 
       <PackageId>Library.OpenRouterClient</PackageId> 
-      <Version>1.0.1</Version> 
+      <Version>1.0.2/Version> 
       <Authors>Kevin Woods</Authors> 
       <Description>Library to make calls to open router</Description>
       <PackageTags>openrouter; ai;</PackageTags>
