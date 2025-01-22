@@ -3,7 +3,7 @@
     <!-- ... other metadata ... -->
     <description>Library to send request to OpenRouter</description>
     <license type="expression">MIT</license>
-    <readme>README.md</readme>
+    <readme>Readme.md</readme>
   </metadata>
   <files>
     <!-- ... other files ... -->

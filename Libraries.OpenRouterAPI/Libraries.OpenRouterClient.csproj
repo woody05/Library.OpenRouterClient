@@ -1,8 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+       <None Include="../Readme.md" Pack="true" />
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+      <PackageReadmeFile>Readme.md</PackageReadmeFile>
 
       <PackageId>Library.OpenRouterClient</PackageId> 
       <Version>1.0.3</Version> 
@@ -20,4 +27,8 @@
     <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
+
+  <ItemGroup>
+        <None Include="../Readme.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 </Project>
