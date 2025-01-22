@@ -1,0 +1,21 @@
+# =========================
+# Project Development Files
+# =========================
+*.json
+!.vscode/*
+*.xlsx
+*.ignore
+*.sql
+*.log
+debug/
+backups/
+ignore/
+uploads/
+launch.json
+
+
+# =========================
+# Build folders and files
+# =========================
+**/bin/
+**/obj/

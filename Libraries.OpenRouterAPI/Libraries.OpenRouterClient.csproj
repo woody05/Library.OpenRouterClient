@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+      <PackageId>Library.OpenRouterClient</PackageId> 
+      <Version>1.0.0</Version> 
+      <Authors>Kevin Woods</Authors> 
+      <Description>Library to make calls to open router</Description>
+      <PackageTags>openrouter; ai;</PackageTags>
+      <RepositoryUrl>https://github.com/your-repo</RepositoryUrl> 
+      
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Enums/" />
+    <Folder Include="Extensions/" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>
